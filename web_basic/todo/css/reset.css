@@ -1,0 +1,26 @@
+/* 모두에게 적용시킴 */
+* {
+    box-sizing: border-box;
+    color: #121212;
+    font-size: 14px;
+}
+
+/* 바디안에 기본적으로 들어있는 마진을 없애준다. */
+body {
+    margin: 0;
+}
+
+/* 해더와 p와 ul에 기본적으로 들어간 마진과 패딩을 없애준다.*/
+h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
